@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B75413981B87B41C002C189E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75413971B87B41C002C189E /* TabBarController.swift */; };
+		B763A89A1B838D9D003B3FC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B763A8991B838D9D003B3FC5 /* AppDelegate.swift */; };
+		B763A89C1B838D9D003B3FC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B763A89B1B838D9D003B3FC5 /* ViewController.swift */; };
+		B763A89F1B838D9D003B3FC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B763A89D1B838D9D003B3FC5 /* Main.storyboard */; };
+		B763A8A11B838D9D003B3FC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B763A8A01B838D9D003B3FC5 /* Images.xcassets */; };
+		B763A8A41B838D9D003B3FC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B763A8A21B838D9D003B3FC5 /* LaunchScreen.xib */; };
+		B763A8B01B838D9D003B3FC5 /* Persentil_HesaplamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B763A8AF1B838D9D003B3FC5 /* Persentil_HesaplamaTests.swift */; };
+		B77439111B87848C005FAAC3 /* persentil_deger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77439101B87848C005FAAC3 /* persentil_deger.swift */; };
+		B77439131B878519005FAAC3 /* kan_basinci.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77439121B878519005FAAC3 /* kan_basinci.swift */; };
+		B7D2E5681B8CD2F700EC21FA /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D2E5671B8CD2F700EC21FA /* GoogleMobileAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B763A8AA1B838D9D003B3FC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B763A88C1B838D9D003B3FC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B763A8931B838D9D003B3FC5;
+			remoteInfo = Persentil_Hesaplama;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B75413971B87B41C002C189E /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B763A8941B838D9D003B3FC5 /* Persentil_Hesaplama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persentil_Hesaplama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B763A8981B838D9D003B3FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B763A8991B838D9D003B3FC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B763A89B1B838D9D003B3FC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B763A89E1B838D9D003B3FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B763A8A01B838D9D003B3FC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B763A8A31B838D9D003B3FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B763A8A91B838D9D003B3FC5 /* Persentil_HesaplamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Persentil_HesaplamaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B763A8AE1B838D9D003B3FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B763A8AF1B838D9D003B3FC5 /* Persentil_HesaplamaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persentil_HesaplamaTests.swift; sourceTree = "<group>"; };
+		B77439101B87848C005FAAC3 /* persentil_deger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = persentil_deger.swift; sourceTree = "<group>"; };
+		B77439121B878519005FAAC3 /* kan_basinci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kan_basinci.swift; sourceTree = "<group>"; };
+		B7D2E5671B8CD2F700EC21FA /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B763A8911B838D9D003B3FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D2E5681B8CD2F700EC21FA /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B763A8A61B838D9D003B3FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B763A88B1B838D9D003B3FC5 = {
+			isa = PBXGroup;
+			children = (
+				B7D2E5671B8CD2F700EC21FA /* GoogleMobileAds.framework */,
+				B763A8961B838D9D003B3FC5 /* Persentil_Hesaplama */,
+				B763A8AC1B838D9D003B3FC5 /* Persentil_HesaplamaTests */,
+				B763A8951B838D9D003B3FC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B763A8951B838D9D003B3FC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B763A8941B838D9D003B3FC5 /* Persentil_Hesaplama.app */,
+				B763A8A91B838D9D003B3FC5 /* Persentil_HesaplamaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B763A8961B838D9D003B3FC5 /* Persentil_Hesaplama */ = {
+			isa = PBXGroup;
+			children = (
+				B763A8991B838D9D003B3FC5 /* AppDelegate.swift */,
+				B763A89B1B838D9D003B3FC5 /* ViewController.swift */,
+				B763A89D1B838D9D003B3FC5 /* Main.storyboard */,
+				B77439101B87848C005FAAC3 /* persentil_deger.swift */,
+				B77439121B878519005FAAC3 /* kan_basinci.swift */,
+				B75413971B87B41C002C189E /* TabBarController.swift */,
+				B763A8A01B838D9D003B3FC5 /* Images.xcassets */,
+				B763A8A21B838D9D003B3FC5 /* LaunchScreen.xib */,
+				B763A8971B838D9D003B3FC5 /* Supporting Files */,
+			);
+			path = Persentil_Hesaplama;
+			sourceTree = "<group>";
+		};
+		B763A8971B838D9D003B3FC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B763A8981B838D9D003B3FC5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B763A8AC1B838D9D003B3FC5 /* Persentil_HesaplamaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B763A8AF1B838D9D003B3FC5 /* Persentil_HesaplamaTests.swift */,
+				B763A8AD1B838D9D003B3FC5 /* Supporting Files */,
+			);
+			path = Persentil_HesaplamaTests;
+			sourceTree = "<group>";
+		};
+		B763A8AD1B838D9D003B3FC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B763A8AE1B838D9D003B3FC5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B763A8931B838D9D003B3FC5 /* Persentil_Hesaplama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B763A8B31B838D9D003B3FC5 /* Build configuration list for PBXNativeTarget "Persentil_Hesaplama" */;
+			buildPhases = (
+				B763A8901B838D9D003B3FC5 /* Sources */,
+				B763A8911B838D9D003B3FC5 /* Frameworks */,
+				B763A8921B838D9D003B3FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Persentil_Hesaplama;
+			productName = Persentil_Hesaplama;
+			productReference = B763A8941B838D9D003B3FC5 /* Persentil_Hesaplama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B763A8A81B838D9D003B3FC5 /* Persentil_HesaplamaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B763A8B61B838D9D003B3FC5 /* Build configuration list for PBXNativeTarget "Persentil_HesaplamaTests" */;
+			buildPhases = (
+				B763A8A51B838D9D003B3FC5 /* Sources */,
+				B763A8A61B838D9D003B3FC5 /* Frameworks */,
+				B763A8A71B838D9D003B3FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B763A8AB1B838D9D003B3FC5 /* PBXTargetDependency */,
+			);
+			name = Persentil_HesaplamaTests;
+			productName = Persentil_HesaplamaTests;
+			productReference = B763A8A91B838D9D003B3FC5 /* Persentil_HesaplamaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B763A88C1B838D9D003B3FC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "CAGRI TEPE";
+				TargetAttributes = {
+					B763A8931B838D9D003B3FC5 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = P4CE87YLJE;
+					};
+					B763A8A81B838D9D003B3FC5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B763A8931B838D9D003B3FC5;
+					};
+				};
+			};
+			buildConfigurationList = B763A88F1B838D9D003B3FC5 /* Build configuration list for PBXProject "Persentil_Hesaplama" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B763A88B1B838D9D003B3FC5;
+			productRefGroup = B763A8951B838D9D003B3FC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B763A8931B838D9D003B3FC5 /* Persentil_Hesaplama */,
+				B763A8A81B838D9D003B3FC5 /* Persentil_HesaplamaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B763A8921B838D9D003B3FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B763A89F1B838D9D003B3FC5 /* Main.storyboard in Resources */,
+				B763A8A41B838D9D003B3FC5 /* LaunchScreen.xib in Resources */,
+				B763A8A11B838D9D003B3FC5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B763A8A71B838D9D003B3FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B763A8901B838D9D003B3FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77439131B878519005FAAC3 /* kan_basinci.swift in Sources */,
+				B77439111B87848C005FAAC3 /* persentil_deger.swift in Sources */,
+				B75413981B87B41C002C189E /* TabBarController.swift in Sources */,
+				B763A89C1B838D9D003B3FC5 /* ViewController.swift in Sources */,
+				B763A89A1B838D9D003B3FC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B763A8A51B838D9D003B3FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B763A8B01B838D9D003B3FC5 /* Persentil_HesaplamaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B763A8AB1B838D9D003B3FC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B763A8931B838D9D003B3FC5 /* Persentil_Hesaplama */;
+			targetProxy = B763A8AA1B838D9D003B3FC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B763A89D1B838D9D003B3FC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B763A89E1B838D9D003B3FC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B763A8A21B838D9D003B3FC5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B763A8A31B838D9D003B3FC5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B763A8B11B838D9D003B3FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B763A8B21B838D9D003B3FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B763A8B41B838D9D003B3FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Persentil_Hesaplama/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Persentil_Hesaplama;
+				PROVISIONING_PROFILE = "71f65bb4-7743-4a51-ad0d-70a21378bc96";
+			};
+			name = Debug;
+		};
+		B763A8B51B838D9D003B3FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Persentil_Hesaplama/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Persentil_Hesaplama;
+				PROVISIONING_PROFILE = "71f65bb4-7743-4a51-ad0d-70a21378bc96";
+			};
+			name = Release;
+		};
+		B763A8B71B838D9D003B3FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Persentil_HesaplamaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Persentil_HesaplamaTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persentil_Hesaplama.app/Persentil_Hesaplama";
+			};
+			name = Debug;
+		};
+		B763A8B81B838D9D003B3FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Persentil_HesaplamaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Persentil_HesaplamaTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persentil_Hesaplama.app/Persentil_Hesaplama";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B763A88F1B838D9D003B3FC5 /* Build configuration list for PBXProject "Persentil_Hesaplama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B763A8B11B838D9D003B3FC5 /* Debug */,
+				B763A8B21B838D9D003B3FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B763A8B31B838D9D003B3FC5 /* Build configuration list for PBXNativeTarget "Persentil_Hesaplama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B763A8B41B838D9D003B3FC5 /* Debug */,
+				B763A8B51B838D9D003B3FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B763A8B61B838D9D003B3FC5 /* Build configuration list for PBXNativeTarget "Persentil_HesaplamaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B763A8B71B838D9D003B3FC5 /* Debug */,
+				B763A8B81B838D9D003B3FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B763A88C1B838D9D003B3FC5 /* Project object */;
+}
