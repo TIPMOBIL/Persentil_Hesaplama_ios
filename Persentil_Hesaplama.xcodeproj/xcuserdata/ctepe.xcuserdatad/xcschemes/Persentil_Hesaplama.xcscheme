@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B763A8931B838D9D003B3FC5"
-               BuildableName = "PersentilHesaplama.app"
+               BuildableName = "Persentil_Hesaplama.app"
                BlueprintName = "Persentil_Hesaplama"
                ReferencedContainer = "container:Persentil_Hesaplama.xcodeproj">
             </BuildableReference>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B763A8A81B838D9D003B3FC5"
-               BuildableName = "PersentilHesaplamaTests.xctest"
+               BuildableName = "Persentil_HesaplamaTests.xctest"
                BlueprintName = "Persentil_HesaplamaTests"
                ReferencedContainer = "container:Persentil_Hesaplama.xcodeproj">
             </BuildableReference>
@@ -47,7 +47,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B763A8A81B838D9D003B3FC5"
-               BuildableName = "PersentilHesaplamaTests.xctest"
+               BuildableName = "Persentil_HesaplamaTests.xctest"
                BlueprintName = "Persentil_HesaplamaTests"
                ReferencedContainer = "container:Persentil_Hesaplama.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B763A8931B838D9D003B3FC5"
-            BuildableName = "PersentilHesaplama.app"
+            BuildableName = "Persentil_Hesaplama.app"
             BlueprintName = "Persentil_Hesaplama"
             ReferencedContainer = "container:Persentil_Hesaplama.xcodeproj">
          </BuildableReference>
@@ -77,7 +77,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B763A8931B838D9D003B3FC5"
-            BuildableName = "PersentilHesaplama.app"
+            BuildableName = "Persentil_Hesaplama.app"
             BlueprintName = "Persentil_Hesaplama"
             ReferencedContainer = "container:Persentil_Hesaplama.xcodeproj">
          </BuildableReference>
@@ -96,7 +96,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B763A8931B838D9D003B3FC5"
-            BuildableName = "PersentilHesaplama.app"
+            BuildableName = "Persentil_Hesaplama.app"
             BlueprintName = "Persentil_Hesaplama"
             ReferencedContainer = "container:Persentil_Hesaplama.xcodeproj">
          </BuildableReference>
