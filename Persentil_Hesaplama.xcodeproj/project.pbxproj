@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B711BE951B8FA5EF00C21574 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B711BE941B8FA5EF00C21574 /* iAd.framework */; };
 		B75413981B87B41C002C189E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75413971B87B41C002C189E /* TabBarController.swift */; };
 		B763A89A1B838D9D003B3FC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B763A8991B838D9D003B3FC5 /* AppDelegate.swift */; };
 		B763A89C1B838D9D003B3FC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B763A89B1B838D9D003B3FC5 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B711BE941B8FA5EF00C21574 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		B75413971B87B41C002C189E /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		B763A8941B838D9D003B3FC5 /* Persentil_Hesaplama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persentil_Hesaplama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B763A8981B838D9D003B3FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B711BE951B8FA5EF00C21574 /* iAd.framework in Frameworks */,
 				B7D2E5681B8CD2F700EC21FA /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +71,7 @@
 		B763A88B1B838D9D003B3FC5 = {
 			isa = PBXGroup;
 			children = (
+				B711BE941B8FA5EF00C21574 /* iAd.framework */,
 				B7D2E5671B8CD2F700EC21FA /* GoogleMobileAds.framework */,
 				B763A8961B838D9D003B3FC5 /* Persentil_Hesaplama */,
 				B763A8AC1B838D9D003B3FC5 /* Persentil_HesaplamaTests */,

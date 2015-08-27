@@ -8,13 +8,15 @@
 
 import Foundation
 import UIKit
-import GoogleMobileAds
+import iAd
 
 
 
-class persentil_deger: UIViewController {
+
+class persentil_deger: UIViewController,ADBannerViewDelegate {
     
-    @IBOutlet weak var bannerView: GADBannerView!
+  
+    @IBOutlet weak var bannerView: ADBannerView!
     
     //IBOutlets
     @IBOutlet weak var scrollview_persentil: UIScrollView!
@@ -59,12 +61,9 @@ class persentil_deger: UIViewController {
     
     
     override func viewDidLoad() {
+      
         
-        bannerView.adUnitID = "ca-app-pub-4063829153261917/7420166985"
-        bannerView.rootViewController = self
-        bannerView.loadRequest(GADRequest())
-        
-        scrollview_persentil.contentSize.height = 650
+        scrollview_persentil.contentSize.height = 630
         
         yas_value = Double(yas)
         
@@ -280,7 +279,9 @@ class persentil_deger: UIViewController {
             
         }
         
-        
+        self.canDisplayBannerAds = true
+        self.bannerView?.delegate = self
+        self.bannerView?.hidden = true
 
     }
     
@@ -306,5 +307,28 @@ class persentil_deger: UIViewController {
             alpha: CGFloat(1.0)
         )
     }
+    
+    func bannerViewWillLoadAd(banner: ADBannerView!) {
+        
+    }
+    
+    func bannerViewDidLoadAd(banner: ADBannerView!) {
+        
+        self.bannerView?.hidden = false
+        
+    }
+    
+    func bannerViewActionDidFinish(banner: ADBannerView!) {
+        
+    }
+    
+    func bannerViewActionShouldBegin(banner: ADBannerView!, willLeaveApplication willLeave: Bool) -> Bool {
+        return true
+    }
+    
+    func bannerView(banner: ADBannerView!, didFailToReceiveAdWithError error: NSError!) {
+        self.bannerView?.hidden = true
+    }
+
 
 }

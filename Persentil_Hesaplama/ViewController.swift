@@ -7,7 +7,8 @@
 //
 
 import UIKit
-import GoogleMobileAds
+import iAd
+
 
 var flag = String()
 var yas = Int()
@@ -32,11 +33,11 @@ var diastolik_95_sonuc:String!
 var diastolik_99_sonuc:String!
 
 
-class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate {
+class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate, ADBannerViewDelegate {
     
   
-    @IBOutlet weak var bannerView: GADBannerView!
     
+    @IBOutlet weak var bannerView: ADBannerView!
     
     //IBOutlets
     @IBOutlet weak var yas_picker: UIPickerView!
@@ -61,9 +62,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        bannerView.adUnitID = "ca-app-pub-4063829153261917/3048842983"
-        bannerView.rootViewController = self
-        bannerView.loadRequest(GADRequest())
+      
         
         self.navigationItem.title = "Persentil Hesaplama"
         
@@ -79,7 +78,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
         scrollView.addGestureRecognizer(tapGesture)
         
-        scrollView.contentSize.height = 570
+        scrollView.contentSize.height = 560
         
         
         for var index = 0; index < 40; ++index {
@@ -106,6 +105,11 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             yas_picker_str.insert(gecici_yas_str, atIndex: index)
             }
         }
+        
+        
+        self.canDisplayBannerAds = true
+        self.bannerView?.delegate = self
+        self.bannerView?.hidden = true
     
     }
     
@@ -120,6 +124,28 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func bannerViewWillLoadAd(banner: ADBannerView!) {
+        
+    }
+    
+    func bannerViewDidLoadAd(banner: ADBannerView!) {
+        
+        self.bannerView?.hidden = false
+        
+    }
+    
+    func bannerViewActionDidFinish(banner: ADBannerView!) {
+        
+    }
+    
+    func bannerViewActionShouldBegin(banner: ADBannerView!, willLeaveApplication willLeave: Bool) -> Bool {
+        return true
+    }
+    
+    func bannerView(banner: ADBannerView!, didFailToReceiveAdWithError error: NSError!) {
+        self.bannerView?.hidden = true
     }
     
     //size the components of the UIPickerView
