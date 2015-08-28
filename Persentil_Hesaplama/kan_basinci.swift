@@ -13,7 +13,7 @@ import iAd
 
 class kan_basinci: UIViewController,ADBannerViewDelegate {
    
-    //change
+    //changes
   
     @IBOutlet weak var bannerView: ADBannerView!
     

@@ -15,6 +15,7 @@ import iAd
 
 class persentil_deger: UIViewController,ADBannerViewDelegate {
     
+    //changes
   
     @IBOutlet weak var bannerView: ADBannerView!
     
